@@ -54,7 +54,7 @@ for ingredient in nltk_nouns:
 	usda[translation[ingredient]]["name"]["split"] = list(nltk_nouns[ingredient].union(textblob_nouns[ingredient]))
 
 print("Saving USDA")
-with open("nounUSDA.json", 'wb+') as f:
+with open("USDA-food-db/usda-full.json", 'wb+') as f:
 	for ingredient_name, ingredient in usda.iteritems():
 		f.write(json.dumps(ingredient)+'\n')
 
