@@ -194,7 +194,6 @@ def main():
   names = {"large flour tortillas":"tortillas, ready-to-bake or -fry, flour, shelf stable","fresh lime juice":"lime juice, raw","small avocado, stone removed, peeled, mashed":"avocados, raw, all commercial varieties","coarsely grated vintage cheddar":"cheese, cheddar","baby spinach leaves":"spinach, raw","Greek-style feta, crumbled":"cheese, feta","smoked chicken breast fillet, thinly sliced":"chicken, broiler or fryers, breast, skinless, boneless, meat only, cooked, grilled"}
   im = IngredientMatcher("USDA-food-db/usda-reduced-nouns.json",names.keys())
 
-
 if __name__=="__main__":
   main()
 
